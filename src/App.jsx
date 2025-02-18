@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
 import About from './pages/About';
