@@ -32,12 +32,41 @@
 	align-items: center;
 	width: 100%;
 	padding: 5px 0;
+	position: relative;
+
 }
 
 .nav-item i {
 	font-size: 24px;
 	color: var(--background-color);
+	transition: opacity 0.3s ease-in-out, opacity 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
+
+.nav-item span {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	white-space: nowrap;
+	font-size: 12px;
+	transition: opacity 0.3s ease-in-out;
+	color: var(--background-color);
+	text-shadow: 0 0 0px var(--background-color); /* Initial glow effect */
+}
+
+.nav-item:hover i {
+	transform: translateY(-10px);
+	opacity: 0;
+}
+
+.nav-item:hover span {
+	transform: translate(-50%, -50%);
+    opacity: 1;
+    top: 50%;
+    text-shadow: 0 0 10px var(--background-color), 0 0 20px var(--background-color); /* Glowing effect */
+}
+
 
 .bottom {
 	display: flex;
