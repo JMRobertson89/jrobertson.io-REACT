@@ -15,7 +15,7 @@ import express from '../assets/tech-logos/express.png';
 function About() {
 	return (
 		<div className="about-container">
-			<div className="about-me-section">
+			<section className="about-me-section">
 				<h1>About Me</h1>
 				<p>
 					I’m a Full-Stack Software Developer with a passion for creating
@@ -38,8 +38,8 @@ function About() {
 					Check out my <Link to="/blog"> blog</Link> to follow my coding
 					journey.
 				</p>
-			</div>
-			<div className="skills-section">
+			</section>
+			<section className="skills-section">
 				<h1>Skills</h1>
 				<div className='skills-cells'>
 					<div className='cell'>
@@ -83,7 +83,7 @@ function About() {
 						<span>Git</span>
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
 	);
 }

@@ -10,7 +10,7 @@ function PageNotFound() {
 
 	return (
 		<div>
-			<h1>Page not found</h1>
+			<h1>OH NO! Page not found</h1>
 		</div>
 	);
 }
