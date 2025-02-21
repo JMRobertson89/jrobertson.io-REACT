@@ -16,7 +16,7 @@ function Contact() {
 					together.
 				</p>
 
-				<p>Fill out the form or email me directly at <a href="mailto:josh@jrobertson.io">josh@jrobertson.io</a>.</p>
+				<p>Fill out the form below or email me directly at <a href="mailto:josh@jrobertson.io">josh@jrobertson.io</a>.</p>
 			</section>
 			<section className='contact-form-section'>
 				<form action="">
