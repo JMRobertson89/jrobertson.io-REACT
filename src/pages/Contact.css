@@ -32,7 +32,7 @@
 	resize: none;
 }
 
-.contact-form-section button {
+.contact-form-section .button {
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	color: var(--background-color);
@@ -44,6 +44,6 @@
 	transition: 0.1s;
 }
 
-.contact-form-section button:hover {
+.contact-form-section .button:hover {
 	filter: brightness(0.9);
 }

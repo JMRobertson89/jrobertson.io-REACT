@@ -1,30 +1,55 @@
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Contact.css';
 
 function Contact() {
+	const form = useRef();
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, {
+				publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+			})
+			.then(
+				() => {
+					console.log('SUCCESS!');
+					e.target.reset();
+				},
+				(error) => {
+					console.log('FAILED...', error.text);
+				}
+			);
+	};
+
 	return (
-		<div className='contact-container'>
-			<section className='contact-me-section'>
+		<div className="contact-container">
+			<section className="contact-me-section">
 				<h1>Contact Me</h1>
 				<p>
 					If you’re interested in discussing an employment opportunity,
-					collaborating on an exciting project, or simply have a question you would
-					like to ask, please don’t hesitate to reach out! I am always open to
-					new connections, creative ventures, and meaningful conversations. I
-					look forward to connecting and exploring potential opportunities
-					together.
+					collaborating on an exciting project, or simply have a question you
+					would like to ask, please don’t hesitate to reach out! I am always
+					open to new connections, creative ventures, and meaningful
+					conversations. I look forward to connecting and exploring potential
+					opportunities together.
 				</p>
 
-				<p>Fill out the form below or email me directly at <a href="mailto:josh@jrobertson.io">josh@jrobertson.io</a>.</p>
+				<p>
+					Fill out the form below or email me directly at{' '}
+					<a href="mailto:josh@jrobertson.io">josh@jrobertson.io</a>.
+				</p>
 			</section>
-			<section className='contact-form-section'>
-				<form action="">
-					<label htmlFor="name">Name:</label>
-					<input type="text" id="name" name="name" required />
-					<label htmlFor="email">Email:</label>
-					<input type="email" id="email" name="email" required />
-					<label htmlFor="message">Message:</label>
-					<textarea id="message" cols={75} rows={5} name="message" required></textarea>
-					<button type="submit">Send Message</button>
+			<section className="contact-form-section">
+				<form ref={form} onSubmit={sendEmail}>
+					<label>Name</label>
+					<input type="text" name="user_name" />
+					<label>Email</label>
+					<input type="email" name="user_email" />
+					<label>Message</label>
+					<textarea rows={10} cols={70} name="message" />
+					<input className='button' type="submit" value="Send" />
 				</form>
 			</section>
 		</div>
