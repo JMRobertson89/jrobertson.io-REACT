@@ -7,7 +7,7 @@ function Contact() {
 				<h1>Contact Me</h1>
 				<p>
 					If you’re interested in discussing an employment opportunity,
-					collaborating on an exciting project, or simply have a question you'd
+					collaborating on an exciting project, or simply have a question you would
 					like to ask, please don’t hesitate to reach out! I am always open to
 					new connections, creative ventures, and meaningful conversations. I
 					look forward to connecting and exploring potential opportunities
