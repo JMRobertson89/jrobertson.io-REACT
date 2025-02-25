@@ -1,11 +1,8 @@
-import { useState } from "react";
 import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
 function Sidebar() {
-
-	const [menuOpen, setMenuOpen] = useState(false);
 
 	return (
 		<nav className="sidebar">
