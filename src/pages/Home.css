@@ -40,12 +40,6 @@
 
 @media (max-width: 1070px) {
 	.home-container {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		height: 100vh;
-		font-family: 'Poppins', sans-serif;
-		background-color: var(--background-color);
 		padding: 80px;
 		padding-right: 50px;
 		max-width: 1300px;
