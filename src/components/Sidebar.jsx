@@ -1,15 +1,21 @@
+import { useState } from 'react';
 import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
 function Sidebar() {
+	const [isOpen, setIsOpen] = useState(false);
 
 	return (
 		<nav className="sidebar">
 			<div className="top">
-				<span>JR.</span>
+				<span className="firIn">J</span>
+				<span className="lastName">ROBERTSON</span>
 			</div>
-			<div className="middle">
+			<div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
+				<i className="bi bi-list"></i>
+			</div>
+			<div className={`middle ${isOpen ? 'open' : ''}`}>
 				<Nav.Link as={Link} to="/" className="nav-item">
 					<i className="bi bi-house-door-fill"></i>
 					<span>HOME</span>
@@ -30,28 +36,29 @@ function Sidebar() {
 					<i className="bi bi-envelope-fill"></i>
 					<span>CONTACT</span>
 				</Nav.Link>
-			</div>
-			<div className="bottom">
-				<a href="/files/Resume.pdf" target="_blank" className="nav-item">
-					<i className="bi bi-file-arrow-down-fill"></i>
-					<span>RESUME</span>
-				</a>
-				<a
-					href="https://github.com/JMRobertson89"
-					target="_blank"
-					className="nav-item"
-				>
-					<i className="bi bi-github"></i>
-					<span>GitHub</span>
-				</a>
-				<a
-					href="https://www.linkedin.com/in/jrobertson-io/"
-					target="_blank"
-					className="nav-item"
-				>
-					<i className="bi bi-linkedin"></i>
-					<span>LinkedIn</span>
-				</a>
+
+				<div className="bottom">
+					<a href="/files/Resume.pdf" target="_blank" className="nav-item">
+						<i className="bi bi-file-arrow-down-fill"></i>
+						<span>RESUME</span>
+					</a>
+					<a
+						href="https://github.com/JMRobertson89"
+						target="_blank"
+						className="nav-item"
+					>
+						<i className="bi bi-github"></i>
+						<span>GitHub</span>
+					</a>
+					<a
+						href="https://www.linkedin.com/in/jrobertson-io/"
+						target="_blank"
+						className="nav-item"
+					>
+						<i className="bi bi-linkedin"></i>
+						<span>LinkedIn</span>
+					</a>
+				</div>
 			</div>
 		</nav>
 	);
