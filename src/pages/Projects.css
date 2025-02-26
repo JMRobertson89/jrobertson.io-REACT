@@ -3,12 +3,10 @@
 	flex-direction: column;
 	align-items: flex-start;
 	height: 100%;
-	font-family: 'Poppins', sans-serif;
-	background-color: var(--background-color);
-	padding: 200px;
-    padding-top: 100px;
-    padding-right: 30px;
-	max-width: 1500px;
+	padding-top: 100px;
+	padding-left: 150px;
+	padding-right: 50px;
+	max-width: 1300px;
 }
 
 .projects {
@@ -102,4 +100,13 @@
 .project-buttons button:hover {
 	background: var(--background-color);
 	color: var(--text-color);
+}
+
+/* media resize */
+
+@media (max-width: 1070px) {
+	.projects-container {
+		padding-left: 50px;
+		padding-right: 10px;
+	}
 }

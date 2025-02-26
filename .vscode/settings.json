@@ -1,3 +1,4 @@
 {
-	"cSpell.words": ["JLKLMB", "jrobertson"]
+	"cSpell.words": ["JLKLMB", "jrobertson"],
+	"postman.settings.dotenv-detection-notification-visibility": false
 }
