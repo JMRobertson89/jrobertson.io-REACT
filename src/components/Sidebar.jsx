@@ -6,6 +6,10 @@ import './Sidebar.css';
 function Sidebar() {
 	const [isOpen, setIsOpen] = useState(false);
 
+	const closeMenu = () => {
+		setIsOpen(false);
+	}
+
 	return (
 		<nav className="sidebar">
 			<div className="top">
@@ -15,7 +19,7 @@ function Sidebar() {
 			<div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
 				<i className="bi bi-list"></i>
 			</div>
-			<div className={`middle ${isOpen ? 'open' : ''}`}>
+			<div className={`middle ${isOpen ? 'open' : ''}`} onClick={closeMenu}>
 				<Nav.Link as={Link} to="/" className="nav-item">
 					<i className="bi bi-house-door-fill"></i>
 					<span>HOME</span>
