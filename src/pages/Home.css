@@ -27,8 +27,6 @@
 	font-size: 20px;
 }
 
-
-
 .headshot img {
 	width: 415px;
 	height: 415px;
@@ -49,13 +47,46 @@
 @media (max-width: 860px) {
 	.home-container {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
 		padding-left: 40px;
+		padding-top: 200px;
 	}
 
 	.home-content-left {
-		padding-bottom: 50px;
+		padding-top: 40px;
+	}
+}
+
+@media (max-width: 560px) {
+
+	.home-container {
+		padding-top: px;
+	}
+
+	.headshot img {
+		width: 315px;
+		height: 315px;
+		border-radius: 20px;
+		object-fit: cover;
+	}
+}
+
+@media (max-width: 470px) {
+	.home-container {
+		padding-top: 200px;
+	}
+	.home-headers h1 {
+		font-size: 40px;
+		font-weight: bold;
+	}
+	
+	.home-headers h2 {
+		font-size: 20px;
+	}
+	
+	.home-headers p {
+		font-size: 20px;
 	}
 }

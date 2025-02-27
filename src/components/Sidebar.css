@@ -3,7 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 	width: 80px;
-	height: 100%;
+	height: 100vh;
 	position: fixed;
 	padding: 10px;
 	background: var(--text-color);
@@ -100,19 +100,21 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
-		padding: 0 25px;
+		padding: 25px;
 	}
 
 	.middle {
 		flex-direction: row;
-		gap: 25px;
+		gap: 30px;
+		padding-right: 70px;
 	}
 
 	.nav-item {
 		width: auto;
 	}
 
-	.bottom {
+	.middle .bottom {
+		display: flex;
 		flex-direction: row;
 		gap: 25px;
 	}
