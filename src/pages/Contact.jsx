@@ -28,7 +28,7 @@ function Contact() {
 				(error) => {
 					setMessage({
 						type: 'error',
-						text: `Failed to send message: ${error.text}`,
+						text: `Failed to send message. Please email directly`,
 					});
 					console.log('FAILED...', error.text);
 				}
