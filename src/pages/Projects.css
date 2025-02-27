@@ -104,9 +104,38 @@
 
 /* media resize */
 
+@media (max-width: 1110px) {
+	.projects-container {
+		padding-left: 100px;
+		padding-right: 10px;
+	}
+}
+
 @media (max-width: 1070px) {
 	.projects-container {
 		padding-left: 50px;
+		
+	}
+
+	.projects {
+		gap: 1px;
+	}
+}
+
+@media (max-width: 960px) {
+	.project-card {
+		width: 400px;
+	}
+}
+
+@media (max-width: 860px) {
+	.project-card {
+		width: 450px;
+	}
+}
+
+@media (max-width: 530px) {
+	.projects {
 		padding-right: 10px;
 	}
 }
