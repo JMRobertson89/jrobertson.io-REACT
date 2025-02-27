@@ -11,4 +11,7 @@ export default defineConfig({
   fs: {
     allow: ['public']
   },
+  build: {
+    minify: false
+  },
 })
