@@ -1,14 +1,13 @@
 
 .blog-content {
 	justify-content: space-between;
-	height: 100vh;
+	height: 100%;
 	font-family: 'Poppins', sans-serif;
 	background-color: var(--background-color);
-	padding: 200px;
-	padding-right: 200px;
-	max-width: 1400px;
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-left: 150px;
+	padding-right: 50px;
+	max-width: 1300px;
 }
 
 .blog-content h1 {
@@ -24,4 +23,16 @@
 .blog-content p {
 	font-size: 16px;
 	line-height: 1.6;
+}
+
+@media (max-width: 1070px) {
+	.blog-content {
+		padding-left: 50px;
+	}
+}
+
+@media (max-width: 655px) {
+	.blog-content {
+		padding-left: 20px;
+	}
 }

@@ -7,7 +7,7 @@ function Blog() {
 		<div className="blog-container">
 			<h1>My Blog</h1>
 			<div className="blogs">
-				{blogPosts.map((post) => (
+				{blogPosts.slice().reverse().map((post) => (
 					<div className="blog-card" key={post.id}>
 						<h2>{post.title}</h2>
 						<p>
