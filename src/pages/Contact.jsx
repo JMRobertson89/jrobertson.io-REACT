@@ -11,11 +11,11 @@ function Contact() {
 
 		emailjs
 			.sendForm(
-				import.meta.env.VITE_EMAILJS_SERVICE_ID,
-				import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+				'service_kpmkul6',
+				'template_rujgdwc',
 				form.current,
 				{
-					publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+					publicKey: '27nOyPvQ941PqqhyF',
 				}
 			)
 			.then(
