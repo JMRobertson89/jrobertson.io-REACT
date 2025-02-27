@@ -3,11 +3,10 @@
 	flex-direction: column;
 	align-items: flex-start;
 	height: 100%;
-	font-family: 'Poppins', sans-serif;
-	background-color: var(--background-color);
-	padding: 200px;
-    padding-top: 100px;
-	max-width: 1500px;
+	padding-top: 100px;
+	padding-left: 150px;
+	padding-right: 50px;
+	max-width: 1300px;
 }
 
 .contact-me-section h1 {
@@ -46,4 +45,22 @@
 
 .contact-form-section .button:hover {
 	filter: brightness(0.9);
+}
+
+@media (max-width: 1070px) {
+	.contact-container {
+		padding-left: 50px;
+	}
+}
+
+@media (max-width: 660px) {
+	.contact-container {
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 620px) {
+	.contact-form-section form {
+		width: 340px;
+	}
 }
