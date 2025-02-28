@@ -12,10 +12,10 @@ function Sidebar() {
 
 	return (
 		<nav className="sidebar">
-			<div className="top">
+			<Link to='/' className="top">
 				<span className="firIn">J</span>
 				<span className="lastName">ROBERTSON</span>
-			</div>
+			</Link>
 			<div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
 				<i className="bi bi-list"></i>
 			</div>
