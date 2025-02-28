@@ -136,6 +136,20 @@
 	}
 }
 
+@media (max-width: 685px) {
+	.projects-container {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 30px;
+	}
+
+	.project-card {
+		padding: 00px;
+		width: 350px;
+		text-align: center;
+	}
+}
+
 @media (max-width: 530px) {
 	.projects {
 		padding-right: 10px;
