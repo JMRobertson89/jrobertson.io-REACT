@@ -17,6 +17,12 @@ const blogPosts = [
 		date: 'January 17, 2025',
 		file: '/blogPosts/03-bootcamp-experience.md',
 	},
+	{
+		id: 'react-portfolio',
+		title: 'Rebuilding My Portfolio: From Static HTML to a Dynamic React Website',
+		date: 'February 28, 2025',
+		file: '/blogPosts/04-react-portfolio.md',
+	}
 ];
 
 export default blogPosts;
