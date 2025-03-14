@@ -2,6 +2,9 @@ import socialNetworkImg from '../assets/images/SNAPI.png';
 import curatedCratesImg from '../assets/images/curated-crates.png';
 import randomIdeasImg from '../assets/images/random-ideas.png';
 import employeeTrackerImg from '../assets/images/employee-tracker.png';
+import calorieTrackerImg from '../assets/images/calorie-track.png';
+import realEstateImg from '../assets/images/btre.png';
+
 
 const projectsData = [
 	{
@@ -35,6 +38,22 @@ const projectsData = [
 		image: employeeTrackerImg,
 		codeLink: 'https://github.com/JMRobertson89/Employee-Tracker',
 		appLink: 'https://www.youtube.com/watch?v=Wh7yypVWQlQ',
+	},
+	{
+		title: 'Calorie Tracker',
+		description:
+			'A front-end calorie tracking application built with JavaScript, Node.js, and Webpack',
+		image: calorieTrackerImg,
+		codeLink: 'https://github.com/JMRobertson89/Calorie-Tracker-Webpack',
+		appLink: 'https://calorietrax.netlify.app/',
+	},
+	{
+		title: 'Real Estate Site',
+		description:
+			'Full-Stack real estate website built with Django, Python, JavaScript, and PostgreSQL.',
+		image: realEstateImg,
+		codeLink: 'https://github.com/JMRobertson89/Real-Estate-Site',
+		appLink: 'https://github.com/JMRobertson89/Real-Estate-Site',
 	},
 ];
 
