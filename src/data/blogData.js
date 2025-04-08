@@ -22,6 +22,12 @@ const blogPosts = [
 		title: 'Rebuilding My Portfolio: From Static HTML to a Dynamic React Website',
 		date: 'February 28, 2025',
 		file: '/blogPosts/04-react-portfolio.md',
+	},
+	{
+		id: 'first-interview',
+		title: 'My First Tech Interview: Wins and Lessons',
+		date: 'April 7, 2025',
+		file: '/blogPosts/05-my-first-tech-interview',
 	}
 ];
 

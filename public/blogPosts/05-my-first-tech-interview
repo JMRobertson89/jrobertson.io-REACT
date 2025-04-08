@@ -1,0 +1,42 @@
+# My First Tech Interview: Wins and Lessons
+
+**Published on April 7, 2025**
+
+### Taking the Leap
+
+This past month, I had my very first technical interview for a software engineering role. While I didn’t get the job, the experience gave me a valuable look into what the interview process really feels like—and left me more motivated than ever.
+
+### The Process
+
+The interview was split into two parts:
+
+**Phone Screen – Soft Skills Focus**
+The first round was a phone screen centered around communication and teamwork. I felt this part went really well. I was able to talk about my journey into tech, the projects I’ve worked on, and how I collaborate with others. It felt less like a test and more like a conversation—which helped me relax and be myself.
+
+**Technical Interview – Live Coding Session**
+For the second round, I was given two hours to solve two coding problems. I completed both, though it took me the entire two hours. That part left me a bit frustrated, as I would’ve liked to finish faster.
+
+One of the problems required parsing a CSV file, something I had never done before. After a quick google search (which was allowed), I found an npm package that could handle it and integrated it into my solution. Even though it was new to me, I figured it out on the fly and got everything working.
+
+### What Went Well
+
+After the interview, I received some thoughtful and encouraging feedback. The interviewer called out a few things that stood out:
+
+- **Clean Logic and Naming:** They appreciated how I structured my code and named variables clearly. This is vital in allowing others to understand your code.
+
+- **Resourcefulness:** They were impressed by how quickly I found and understood the npm package I needed to use. If you are in a similar situation, make sure to have clear direction on whether using resources is ok in your technical interview.
+
+- **Problem-Solving Under Pressure:** Even though I hadn’t solved that specific problem before, I was able to work through it effectively in real time.
+
+### What I Learned
+
+1. **Time Management Matters:** Solving the problems took the full two hours. I need to work on my pacing and get more comfortable identifying solutions faster.
+
+2. **It’s Okay to Look Things Up:** I felt unsure about using resources during interviews, but this experience reminded me that using the right tools effectively is a skill in itself.
+
+3. **I’m On the Right Track:** I may not have landed the role, but this process validated the progress I’ve made and showed me where to grow next.
+
+### What’s Next
+I’m back to studying, building, and applying. This interview taught me that every step, whether or not it ends in an offer, is part of the process.
+
+The grind continues, but now it’s with even more focus and clarity.
