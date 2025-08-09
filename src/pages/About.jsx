@@ -10,6 +10,9 @@ import git from '../assets/tech-logos/git.png';
 import mongo from '../assets/tech-logos/mongo.png';
 import postgres from '../assets/tech-logos/postgres.png';
 import express from '../assets/tech-logos/express.png';
+import docker from '../assets/tech-logos/dockerMarkBlue.png';
+import nextjs from '../assets/tech-logos/nextjs.png';
+import tailwind from '../assets/tech-logos/tailwindcss.svg';
 
 
 function About() {
@@ -19,10 +22,10 @@ function About() {
 				<h1>About Me</h1>
 				<p>
 					I’m a Full-Stack Software Developer with a passion for creating
-					innovative solutions that bridge technology with business needs. A
+					innovative solutions that bridge technology with organizational and user needs. A
 					graduate of the University of Connecticut&apos;s Full-Stack Web
 					Development Bootcamp, I&apos;ve developed expertise in both front-end
-					and back-end development technologies. Leveraging my additional
+					and back-end development technologies. Leveraging my
 					background in technology sales and client management, I bring a
 					distinctive blend of technical proficiency, customer-focused
 					problem-solving, and collaborative teamwork to every project. My
@@ -81,6 +84,18 @@ function About() {
 					<div className='cell'>
 						<img src={git} alt="git logo" />
 						<span>Git</span>
+					</div>
+					<div className='cell'>
+						<img src={docker} alt="docker logo" />
+						<span>Docker</span>
+					</div>
+					<div className='cell'>
+						<img src={nextjs} alt="nextjs logo" />
+						<span>Next.js</span>
+					</div>
+					<div className='cell'>
+						<img src={tailwind} alt="tailwind logo" />
+						<span>Tailwind CSS</span>
 					</div>
 				</div>
 			</section>
