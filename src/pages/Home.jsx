@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import './Home.css';
 import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import headshot from '../assets/images/jrobertson-headshot2.jpg';
+import headshot from '../assets/images/jrobertson-headshot3.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const pageVariants = {
